@@ -20,6 +20,15 @@ export default function CustomCursor() {
   const [ripples, setRipples] = useState<Ripple[]>([]);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    // Check if user is on a touch device or mobile width
+    const isTouchDevice = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
+    if (isTouchDevice) {
+      setIsHidden(true);
+      return; // Do not apply custom cursor logic on mobile
+    }
+
     document.body.style.cursor = "none";
     const style = document.createElement("style");
     style.innerHTML = `* { cursor: none !important; }`;
@@ -84,7 +93,10 @@ export default function CustomCursor() {
       window.removeEventListener("mousemove", updateMousePosition);
       window.removeEventListener("mouseover", handleMouseOver);
       window.removeEventListener("click", handleClick);
-      document.head.removeChild(style);
+      
+      if (document.head.contains(style)) {
+        document.head.removeChild(style);
+      }
       document.body.style.cursor = "auto";
     };
   }, []);
