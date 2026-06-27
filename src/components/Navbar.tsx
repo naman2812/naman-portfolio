@@ -52,7 +52,7 @@ export default function Navbar() {
     >
       <div
         className={cn(
-          "flex flex-wrap items-center justify-center gap-1 md:gap-4 px-4 md:px-6 py-2.5 rounded-full transition-all duration-500 border pointer-events-auto",
+          "flex items-center gap-2 md:gap-4 px-4 md:px-6 py-2.5 rounded-full transition-all duration-500 border pointer-events-auto overflow-x-auto overflow-y-hidden max-w-[95vw] md:max-w-none whitespace-nowrap scrollbar-hide",
           scrolled
             ? "bg-neutral-950/80 backdrop-blur-xl border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.8)]"
             : "bg-black/20 backdrop-blur-md border-white/5 shadow-xl"

@@ -14,7 +14,7 @@ export function BentoGrid({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto auto-rows-[280px]",
+        "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto auto-rows-[minmax(280px,auto)] md:auto-rows-[280px]",
         className
       )}
     >
