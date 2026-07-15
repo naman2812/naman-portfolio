@@ -153,7 +153,7 @@ export default function Home() {
                 className="w-full h-full relative group/project overflow-hidden rounded-3xl cursor-pointer" 
                 onClick={() => window.open('https://github.com/naman2812/NeuroFlow-HiDevs', '_blank')}
               >
-                <img src="/images/projects/neuroflow.jpg" alt="NeuroFlow Project" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover/project:opacity-60 transition-opacity duration-500" />
+                <img src="/images/projects/neuroflow_v3.jpg" alt="NeuroFlow Project" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover/project:opacity-60 transition-opacity duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full">
                   <div className="flex justify-between items-end">

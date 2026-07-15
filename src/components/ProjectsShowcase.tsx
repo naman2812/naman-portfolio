@@ -10,7 +10,7 @@ const projects = [
     description: "An advanced deep learning framework and scalable data pipeline architecture designed to optimize neural network training, stream processing, and real-time AI model deployment.",
     tech: ["Python", "Deep Learning", "Neural Networks", "Data Engineering"],
     github: "https://github.com/naman2812/NeuroFlow-HiDevs",
-    image: "/images/projects/neuroflow.jpg",
+    image: "/images/projects/neuroflow_v3.jpg",
     featured: true
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     description: "A fully-featured recommendation engine complete with a robust API for seamless integration and real-time personalized suggestions.",
     tech: ["Python", "APIs", "Data Science"],
     github: "https://github.com/naman2812/Complete-Recommendation-System-with-API_HiDevs",
-    image: "/images/projects/recommendation_v2.jpg",
+    image: "/images/projects/recommendation_v3.jpg",
     featured: false
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     description: "A comprehensive feedback system consolidating multi-source inputs with sentiment analysis and automated reporting via interactive Streamlit dashboards.",
     tech: ["Python", "Streamlit", "NLP", "Analytics"],
     github: "https://github.com/naman2812/Multi-Source-Feedback-Intelligence-System_HiDevs",
-    image: "/images/projects/feedback_v2.jpg",
+    image: "/images/projects/feedback_v3.jpg",
     featured: false
   }
 ];
