@@ -92,7 +92,7 @@ export default function Home() {
             <BentoCard className="h-full p-0">
               <div className="w-full h-full relative group">
                 <div className="absolute inset-0">
-                  <img src="/my-photo.png" alt="Naman Lad" className="w-full h-full object-cover object-top scale-105 group-hover:scale-100 transition-transform duration-700 ease-out" />
+                  <img src="/profile.png" alt="Naman Lad" className="w-full h-full object-cover object-top scale-105 group-hover:scale-100 transition-transform duration-700 ease-out" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-500" />
                 </div>
               </div>
