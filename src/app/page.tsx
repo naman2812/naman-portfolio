@@ -151,16 +151,16 @@ export default function Home() {
             <BentoCard className="h-full p-0">
               <div 
                 className="w-full h-full relative group/project overflow-hidden rounded-3xl cursor-pointer" 
-                onClick={() => window.open('https://github.com/naman2812/Intelligent-Resume-Analyzer_HiDevs', '_blank')}
+                onClick={() => window.open('https://github.com/naman2812/NeuroFlow-HiDevs', '_blank')}
               >
-                <img src="/images/projects/resume_analyzer.png" alt="Project" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover/project:opacity-60 transition-opacity duration-500" />
+                <img src="/images/projects/neuroflow.jpg" alt="NeuroFlow Project" className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover/project:opacity-60 transition-opacity duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6 md:p-8 w-full">
                   <div className="flex justify-between items-end">
                     <div>
                       <p className="text-primary font-mono text-sm mb-2 opacity-0 group-hover/project:opacity-100 transition-opacity translate-y-4 group-hover/project:translate-y-0 duration-500">// Featured Project</p>
-                      <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 group-hover/project:-translate-y-2 transition-transform duration-500">Intelligent Resume Analyzer</h3>
-                      <p className="text-neutral-300 text-sm md:text-base max-w-sm group-hover/project:-translate-y-2 transition-transform duration-500 delay-75">AI-powered hiring assistant with fuzzy matching.</p>
+                      <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 group-hover/project:-translate-y-2 transition-transform duration-500">NeuroFlow</h3>
+                      <p className="text-neutral-300 text-sm md:text-base max-w-sm group-hover/project:-translate-y-2 transition-transform duration-500 delay-75">Advanced deep learning framework and AI data pipeline architecture.</p>
                     </div>
                     <div className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 group-hover/project:bg-primary group-hover/project:border-primary group-hover/project:scale-110 transition-all duration-500">
                       <ExternalLink className="text-white w-5 h-5" />

@@ -6,11 +6,11 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Intelligent Resume Analyzer",
-    description: "An AI-powered hiring assistant that automates resume screening by extracting candidate data, executing fuzzy-matching algorithms against job requirements, and generating data-driven hiring recommendations.",
-    tech: ["Python", "Machine Learning", "NLP", "Jupyter"],
-    github: "https://github.com/naman2812/Intelligent-Resume-Analyzer_HiDevs",
-    image: "/images/projects/resume_analyzer.png",
+    title: "NeuroFlow",
+    description: "An advanced deep learning framework and scalable data pipeline architecture designed to optimize neural network training, stream processing, and real-time AI model deployment.",
+    tech: ["Python", "Deep Learning", "Neural Networks", "Data Engineering"],
+    github: "https://github.com/naman2812/NeuroFlow-HiDevs",
+    image: "/images/projects/neuroflow.jpg",
     featured: true
   },
   {
