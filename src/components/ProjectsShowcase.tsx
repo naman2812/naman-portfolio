@@ -18,15 +18,15 @@ const projects = [
     description: "A fully-featured recommendation engine complete with a robust API for seamless integration and real-time personalized suggestions.",
     tech: ["Python", "APIs", "Data Science"],
     github: "https://github.com/naman2812/Complete-Recommendation-System-with-API_HiDevs",
-    image: "/images/projects/recommendation.png",
+    image: "/images/projects/recommendation_v2.jpg",
     featured: false
   },
   {
     title: "Multi-Source Feedback Intelligence",
-    description: "An intelligent system designed to aggregate, process, and analyze qualitative feedback from multiple disparate sources using advanced NLP techniques.",
-    tech: ["Python", "NLP", "AI Architecture"],
+    description: "A comprehensive feedback system consolidating multi-source inputs with sentiment analysis and automated reporting via interactive Streamlit dashboards.",
+    tech: ["Python", "Streamlit", "NLP", "Analytics"],
     github: "https://github.com/naman2812/Multi-Source-Feedback-Intelligence-System_HiDevs",
-    image: "/images/projects/feedback.png",
+    image: "/images/projects/feedback_v2.jpg",
     featured: false
   }
 ];
